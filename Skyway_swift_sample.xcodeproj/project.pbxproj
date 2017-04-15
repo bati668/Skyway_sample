@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5BD53298F98F2007DE14C5ED /* libPods-Skyway_swift_sample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6865326415DB9EDEA819B46 /* libPods-Skyway_swift_sample.a */; };
 		929544811EA270B900E2A92F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929544801EA270B900E2A92F /* AppDelegate.swift */; };
 		929544831EA270B900E2A92F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929544821EA270B900E2A92F /* ViewController.swift */; };
 		929544861EA270B900E2A92F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929544841EA270B900E2A92F /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		67E95D77EC5A3555A3A13001 /* Pods-Skyway_swift_sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skyway_swift_sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-Skyway_swift_sample/Pods-Skyway_swift_sample.release.xcconfig"; sourceTree = "<group>"; };
 		9295447D1EA270B900E2A92F /* Skyway_swift_sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skyway_swift_sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		929544801EA270B900E2A92F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		929544821EA270B900E2A92F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		929544871EA270B900E2A92F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9295448A1EA270B900E2A92F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9295448C1EA270B900E2A92F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6865326415DB9EDEA819B46 /* libPods-Skyway_swift_sample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Skyway_swift_sample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9B2377F8784AE313523C5C /* Pods-Skyway_swift_sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skyway_swift_sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Skyway_swift_sample/Pods-Skyway_swift_sample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BD53298F98F2007DE14C5ED /* libPods-Skyway_swift_sample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2052763869C10CD53FF7A65D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD9B2377F8784AE313523C5C /* Pods-Skyway_swift_sample.debug.xcconfig */,
+				67E95D77EC5A3555A3A13001 /* Pods-Skyway_swift_sample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		64D8341EAEC4532CD65B10CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6865326415DB9EDEA819B46 /* libPods-Skyway_swift_sample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		929544741EA270B900E2A92F = {
 			isa = PBXGroup;
 			children = (
 				9295447F1EA270B900E2A92F /* Skyway_swift_sample */,
 				9295447E1EA270B900E2A92F /* Products */,
+				2052763869C10CD53FF7A65D /* Pods */,
+				64D8341EAEC4532CD65B10CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9295448F1EA270B900E2A92F /* Build configuration list for PBXNativeTarget "Skyway_swift_sample" */;
 			buildPhases = (
+				23541BF698631EDEAEA97073 /* [CP] Check Pods Manifest.lock */,
 				929544791EA270B900E2A92F /* Sources */,
 				9295447A1EA270B900E2A92F /* Frameworks */,
 				9295447B1EA270B900E2A92F /* Resources */,
+				D6D2470ABF57DAADBB2900E0 /* [CP] Embed Pods Frameworks */,
+				8F664893D8DF539A369280A4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +157,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23541BF698631EDEAEA97073 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8F664893D8DF539A369280A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Skyway_swift_sample/Pods-Skyway_swift_sample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6D2470ABF57DAADBB2900E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Skyway_swift_sample/Pods-Skyway_swift_sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		929544791EA270B900E2A92F /* Sources */ = {
@@ -256,6 +331,7 @@
 		};
 		929544901EA270B900E2A92F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD9B2377F8784AE313523C5C /* Pods-Skyway_swift_sample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Skyway_swift_sample/Info.plist;
@@ -268,6 +344,7 @@
 		};
 		929544911EA270B900E2A92F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67E95D77EC5A3555A3A13001 /* Pods-Skyway_swift_sample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Skyway_swift_sample/Info.plist;

@@ -1,0 +1,24 @@
+PODS:
+  - SkyWay-iOS-SDK (0.2.2)
+  - SkyWay-MultiParty-iOS (0.1.0)
+
+DEPENDENCIES:
+  - SkyWay-iOS-SDK
+  - SkyWay-MultiParty-iOS (from `https://github.com/nttcom/SkyWay-MultiParty-iOS.git`)
+
+EXTERNAL SOURCES:
+  SkyWay-MultiParty-iOS:
+    :git: https://github.com/nttcom/SkyWay-MultiParty-iOS.git
+
+CHECKOUT OPTIONS:
+  SkyWay-MultiParty-iOS:
+    :commit: 5a04f4cf7b07fa61aba1ac7cac50d3eb42b0e5a3
+    :git: https://github.com/nttcom/SkyWay-MultiParty-iOS.git
+
+SPEC CHECKSUMS:
+  SkyWay-iOS-SDK: 6762f38ad67c9e1689d75df42ea9cd71631ef293
+  SkyWay-MultiParty-iOS: 06b4efadfff10cc2c1289daea090a9002c63a547
+
+PODFILE CHECKSUM: 6fbe5cdb4021df19efdcbd852a351bbe38a1a1b9
+
+COCOAPODS: 1.2.0
