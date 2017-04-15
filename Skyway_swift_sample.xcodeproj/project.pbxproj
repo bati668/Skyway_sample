@@ -13,6 +13,21 @@
 		929544861EA270B900E2A92F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929544841EA270B900E2A92F /* Main.storyboard */; };
 		929544881EA270B900E2A92F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929544871EA270B900E2A92F /* Assets.xcassets */; };
 		9295448B1EA270B900E2A92F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929544891EA270B900E2A92F /* LaunchScreen.storyboard */; };
+		929544951EA2728800E2A92F /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929544941EA2728800E2A92F /* CoreVideo.framework */; };
+		929544971EA2728E00E2A92F /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929544961EA2728E00E2A92F /* VideoToolbox.framework */; };
+		929544991EA2729600E2A92F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929544981EA2729600E2A92F /* SystemConfiguration.framework */; };
+		9295449B1EA2729F00E2A92F /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9295449A1EA2729F00E2A92F /* GLKit.framework */; };
+		9295449D1EA272AA00E2A92F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9295449C1EA272AA00E2A92F /* Foundation.framework */; };
+		9295449F1EA272B100E2A92F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9295449E1EA272B100E2A92F /* AVFoundation.framework */; };
+		929544A11EA272BD00E2A92F /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929544A01EA272BD00E2A92F /* CoreMedia.framework */; };
+		929544A31EA272C300E2A92F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929544A21EA272C300E2A92F /* CoreGraphics.framework */; };
+		929544A51EA272CC00E2A92F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929544A41EA272CC00E2A92F /* AudioToolbox.framework */; };
+		929544A71EA272D400E2A92F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929544A61EA272D400E2A92F /* CFNetwork.framework */; };
+		929544A91EA272DD00E2A92F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929544A81EA272DD00E2A92F /* Security.framework */; };
+		929544AB1EA272E700E2A92F /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 929544AA1EA272E700E2A92F /* libsqlite3.0.tbd */; };
+		929544AD1EA272FA00E2A92F /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 929544AC1EA272FA00E2A92F /* libstdc++.6.0.9.tbd */; };
+		929544AF1EA2730900E2A92F /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 929544AE1EA2730900E2A92F /* libicucore.tbd */; };
+		929544B11EA2731900E2A92F /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 929544B01EA2731900E2A92F /* libc++.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +39,22 @@
 		929544871EA270B900E2A92F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9295448A1EA270B900E2A92F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9295448C1EA270B900E2A92F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		929544931EA2726D00E2A92F /* skyway-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "skyway-Bridging-Header.h"; sourceTree = "<group>"; };
+		929544941EA2728800E2A92F /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		929544961EA2728E00E2A92F /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		929544981EA2729600E2A92F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9295449A1EA2729F00E2A92F /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		9295449C1EA272AA00E2A92F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9295449E1EA272B100E2A92F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		929544A01EA272BD00E2A92F /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		929544A21EA272C300E2A92F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		929544A41EA272CC00E2A92F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		929544A61EA272D400E2A92F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		929544A81EA272DD00E2A92F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		929544AA1EA272E700E2A92F /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		929544AC1EA272FA00E2A92F /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		929544AE1EA2730900E2A92F /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		929544B01EA2731900E2A92F /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		C6865326415DB9EDEA819B46 /* libPods-Skyway_swift_sample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Skyway_swift_sample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD9B2377F8784AE313523C5C /* Pods-Skyway_swift_sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skyway_swift_sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Skyway_swift_sample/Pods-Skyway_swift_sample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -33,6 +64,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				929544B11EA2731900E2A92F /* libc++.tbd in Frameworks */,
+				929544AF1EA2730900E2A92F /* libicucore.tbd in Frameworks */,
+				929544AD1EA272FA00E2A92F /* libstdc++.6.0.9.tbd in Frameworks */,
+				929544AB1EA272E700E2A92F /* libsqlite3.0.tbd in Frameworks */,
+				929544A91EA272DD00E2A92F /* Security.framework in Frameworks */,
+				929544A71EA272D400E2A92F /* CFNetwork.framework in Frameworks */,
+				929544A51EA272CC00E2A92F /* AudioToolbox.framework in Frameworks */,
+				929544A31EA272C300E2A92F /* CoreGraphics.framework in Frameworks */,
+				929544A11EA272BD00E2A92F /* CoreMedia.framework in Frameworks */,
+				9295449F1EA272B100E2A92F /* AVFoundation.framework in Frameworks */,
+				9295449D1EA272AA00E2A92F /* Foundation.framework in Frameworks */,
+				9295449B1EA2729F00E2A92F /* GLKit.framework in Frameworks */,
+				929544991EA2729600E2A92F /* SystemConfiguration.framework in Frameworks */,
+				929544971EA2728E00E2A92F /* VideoToolbox.framework in Frameworks */,
+				929544951EA2728800E2A92F /* CoreVideo.framework in Frameworks */,
 				5BD53298F98F2007DE14C5ED /* libPods-Skyway_swift_sample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,6 +98,21 @@
 		64D8341EAEC4532CD65B10CB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				929544B01EA2731900E2A92F /* libc++.tbd */,
+				929544AE1EA2730900E2A92F /* libicucore.tbd */,
+				929544AC1EA272FA00E2A92F /* libstdc++.6.0.9.tbd */,
+				929544AA1EA272E700E2A92F /* libsqlite3.0.tbd */,
+				929544A81EA272DD00E2A92F /* Security.framework */,
+				929544A61EA272D400E2A92F /* CFNetwork.framework */,
+				929544A41EA272CC00E2A92F /* AudioToolbox.framework */,
+				929544A21EA272C300E2A92F /* CoreGraphics.framework */,
+				929544A01EA272BD00E2A92F /* CoreMedia.framework */,
+				9295449E1EA272B100E2A92F /* AVFoundation.framework */,
+				9295449C1EA272AA00E2A92F /* Foundation.framework */,
+				9295449A1EA2729F00E2A92F /* GLKit.framework */,
+				929544981EA2729600E2A92F /* SystemConfiguration.framework */,
+				929544961EA2728E00E2A92F /* VideoToolbox.framework */,
+				929544941EA2728800E2A92F /* CoreVideo.framework */,
 				C6865326415DB9EDEA819B46 /* libPods-Skyway_swift_sample.a */,
 			);
 			name = Frameworks;
@@ -78,6 +139,7 @@
 		9295447F1EA270B900E2A92F /* Skyway_swift_sample */ = {
 			isa = PBXGroup;
 			children = (
+				929544931EA2726D00E2A92F /* skyway-Bridging-Header.h */,
 				929544801EA270B900E2A92F /* AppDelegate.swift */,
 				929544821EA270B900E2A92F /* ViewController.swift */,
 				929544841EA270B900E2A92F /* Main.storyboard */,
@@ -123,6 +185,7 @@
 				TargetAttributes = {
 					9295447C1EA270B900E2A92F = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = B273BZ2ZNJ;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -334,10 +397,12 @@
 			baseConfigurationReference = DD9B2377F8784AE313523C5C /* Pods-Skyway_swift_sample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B273BZ2ZNJ;
 				INFOPLIST_FILE = Skyway_swift_sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Skyway-swift-sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PRODUCT)/Skyway_swift_sample/skyway-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -347,10 +412,12 @@
 			baseConfigurationReference = 67E95D77EC5A3555A3A13001 /* Pods-Skyway_swift_sample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B273BZ2ZNJ;
 				INFOPLIST_FILE = Skyway_swift_sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Skyway-swift-sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PRODUCT)/Skyway_swift_sample/skyway-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -374,6 +441,7 @@
 				929544911EA270B900E2A92F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
